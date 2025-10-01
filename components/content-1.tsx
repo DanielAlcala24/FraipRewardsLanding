@@ -32,13 +32,13 @@ export default function ContentSection() {
               Con Fraip Rewards, creas una cultura donde cada logro cuenta. Los colaboradores acumulan puntos por su desempeño, que pueden canjear por un catálogo de cupones y beneficios definidos por la empresa.
             </p>
             <p className="text-muted-foreground">
-              Además, fomenta la camaradería con sorteos y votaciones por el "Colaborador del Mes", haciendo del reconocimiento una experiencia divertida y tangible para todos.
+              Además, fomenta la camaradería con sorteos y votaciones por el &quot;Colaborador del Mes&quot;, haciendo del reconocimiento una experiencia divertida y tangible para todos.
             </p>
 
             <div className="pt-6">
               <blockquote className="border-l-4 pl-4">
                 <p>
-                  "Implementar Fraip Rewards transformó nuestra dinámica de equipo. Ver a los colaboradores canjear sus puntos y participar en los sorteos ha generado un impacto increíble en la moral y la motivación."
+                  &quot;Implementar Fraip Rewards transformó nuestra dinámica de equipo. Ver a los colaboradores canjear sus puntos y participar en los sorteos ha generado un impacto increíble en la moral y la motivación.&quot;
                 </p>
 
                 <div className="mt-6 space-y-3">
