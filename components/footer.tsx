@@ -3,27 +3,19 @@ import Link from "next/link";
 
 const links = [
   {
-    title: "Características",
+    title: "Funcionalidades",
     href: "#",
   },
   {
-    title: "Solución",
+    title: "Planes",
     href: "#",
   },
   {
-    title: "Clientes",
+    title: "Demo",
     href: "#",
   },
   {
-    title: "Precios",
-    href: "#",
-  },
-  {
-    title: "Ayuda",
-    href: "#",
-  },
-  {
-    title: "Acerca de",
+    title: "Contacto",
     href: "#",
   },
 ];
@@ -176,7 +168,7 @@ export default function FooterSection() {
         </div>
         <span className="text-muted-foreground block text-center text-sm">
           {" "}
-          © {new Date().getFullYear()} Tailus UI, Todos los derechos reservados
+          © {new Date().getFullYear()} Fraip Rewards, Todos los derechos reservados
         </span>
       </div>
     </footer>

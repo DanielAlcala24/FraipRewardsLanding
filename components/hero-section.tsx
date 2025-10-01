@@ -16,16 +16,16 @@ export default function HeroSection() {
             <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
               <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
                 <h1 className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">
-                  Construye 10x más rápido con NS
+                  Transforma la cultura de tu empresa con Fraip Rewards
                 </h1>
                 <p className="mt-8 max-w-2xl text-pretty text-lg">
-                  Componentes altamente personalizables para construir sitios web y aplicaciones modernas que se ven y se sienten como tú quieres.
+                  La plataforma todo-en-uno para fortalecer el compromiso y la motivación de tu equipo con credenciales virtuales, recompensas, comunicación interna y mucho más.
                 </p>
 
                 <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
                   <Button asChild size="lg" className="px-5 text-base">
                     <Link href="#link">
-                      <span className="text-nowrap">Empieza a Construir</span>
+                      <span className="text-nowrap">Crea tu programa</span>
                     </Link>
                   </Button>
                   <Button

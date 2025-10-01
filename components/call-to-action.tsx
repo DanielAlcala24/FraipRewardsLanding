@@ -7,20 +7,20 @@ export default function CallToAction() {
       <div className="mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-            Empieza a Construir
+            ¿Listo para llevar tu empresa al siguiente nivel?
           </h2>
-          <p className="mt-4">Comienza a crear tu proyecto ahora mismo.</p>
+          <p className="mt-4">Descubre cómo Fraip Rewards puede transformar la cultura de tu organización.</p>
 
           <div className="mt-12 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg">
-              <Link href="/">
-                <span>Comenzar</span>
+              <Link href="#link">
+                <span>Crea tu programa</span>
               </Link>
             </Button>
 
             <Button asChild size="lg" variant="outline">
-              <Link href="/">
-                <span>Agendar Demo</span>
+              <Link href="#link">
+                <span>Solicita una demo</span>
               </Link>
             </Button>
           </div>

@@ -5,7 +5,7 @@ export default function ContentSection() {
     <section className="py-16 md:py-32">
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
         <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl">
-          El ecosistema de Lyra une nuestros modelos.
+          Un ecosistema de motivación a tu alcance
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
           <div className="relative mb-6 sm:mb-0">
@@ -13,14 +13,14 @@ export default function ContentSection() {
               <Image
                 src="/payments.png"
                 className="hidden rounded-[15px] dark:block"
-                alt="payments illustration dark"
+                alt="Ilustración del sistema de recompensas"
                 width={1207}
                 height={929}
               />
               <Image
                 src="/payments-light.png"
                 className="rounded-[15px] shadow dark:hidden"
-                alt="payments illustration light"
+                alt="Ilustración del sistema de recompensas (claro)"
                 width={1207}
                 height={929}
               />
@@ -29,28 +29,24 @@ export default function ContentSection() {
 
           <div className="relative space-y-4">
             <p className="text-muted-foreground">
-              Gemini está evolucionando para ser más que solo los modelos.{" "}
-              <span className="text-accent-foreground font-bold">
-                Soporta todo un ecosistema
-              </span>{" "}
-              — desde productos que innovan.
+              Con Fraip Rewards, creas una cultura donde cada logro cuenta. Los colaboradores acumulan puntos por su desempeño, que pueden canjear por un catálogo de cupones y beneficios definidos por la empresa.
             </p>
             <p className="text-muted-foreground">
-              Soporta todo un ecosistema, desde productos hasta las API y plataformas que ayudan a los desarrolladores y empresas a innovar.
+              Además, fomenta la camaradería con sorteos y votaciones por el "Colaborador del Mes", haciendo del reconocimiento una experiencia divertida y tangible para todos.
             </p>
 
             <div className="pt-6">
               <blockquote className="border-l-4 pl-4">
                 <p>
-                  Usar TailsUI ha sido como desbloquear un superpoder de diseño secreto. Es la fusión perfecta de simplicidad y versatilidad, permitiéndonos crear interfaces de usuario que son tan impresionantes como fáciles de usar.
+                  "Implementar Fraip Rewards transformó nuestra dinámica de equipo. Ver a los colaboradores canjear sus puntos y participar en los sorteos ha generado un impacto increíble en la moral y la motivación."
                 </p>
 
                 <div className="mt-6 space-y-3">
-                  <cite className="block font-medium">John Doe, CEO</cite>
+                  <cite className="block font-medium">Ana García, Gerente de RRHH</cite>
                   <Image
                     className="h-5 w-fit dark:invert"
                     src="https://html.tailus.io/blocks/customers/nvidia.svg"
-                    alt="Nvidia Logo"
+                    alt="Logo de empresa cliente"
                     height="20"
                     width="100"
                   />
