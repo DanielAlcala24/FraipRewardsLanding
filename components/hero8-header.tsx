@@ -23,7 +23,7 @@ export const HeroHeader = () => {
       >
         <div className="mx-auto max-w-6xl px-6 transition-all duration-300">
           <div className="relative flex flex-wrap items-center justify-between gap-6 py-3 lg:gap-0 lg:py-4">
-            <div className="flex w-full items-center justify-between gap-40 lg:w-auto">
+            <div className="flex w-full items-center justify-between lg:w-auto">
               <Link
                 href="/"
                 aria-label="home"
@@ -33,14 +33,24 @@ export const HeroHeader = () => {
                 <span className="font-semibold text-lg">Fraip Rewards</span>
               </Link>
 
-              <button
-                onClick={() => setMenuState(!menuState)}
-                aria-label={menuState == true ? "Close Menu" : "Open Menu"}
-                className="relative z-20 -m-2.5 -mr-4 block cursor-pointer p-2.5 lg:hidden"
-              >
-                <Menu className="in-data-[state=active]:rotate-180 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0 m-auto size-6 duration-200" />
-                <X className="in-data-[state=active]:rotate-0 in-data-[state=active]:scale-100 in-data-[state=active]:opacity-100 absolute inset-0 m-auto size-6 -rotate-180 scale-0 opacity-0 duration-200" />
-              </button>
+              {/* --- Mobile Controls --- */}
+              <div className="flex items-center gap-2 lg:hidden">
+                <Button asChild size="sm">
+                  <Link href="https://app.fraip.com.mx" target="_blank">
+                    <span>Iniciar sesión</span>
+                  </Link>
+                </Button>
+                <button
+                  onClick={() => setMenuState(!menuState)}
+                  aria-label={menuState ? "Close Menu" : "Open Menu"}
+                  className="relative z-20 -m-2.5 block cursor-pointer p-2.5"
+                >
+                  <Menu className="in-data-[state=active]:rotate-180 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0 m-auto size-6 duration-200" />
+                  <X className="in-data-[state=active]:rotate-0 in-data-[state=active]:scale-100 in-data-[state=active]:opacity-100 absolute inset-0 m-auto size-6 -rotate-180 scale-0 opacity-0 duration-200" />
+                </button>
+              </div>
+              {/* --- End Mobile Controls --- */}
+
 
               <div className="hidden lg:block">
                 <ul className="flex gap-8 text-sm">
@@ -76,7 +86,8 @@ export const HeroHeader = () => {
               </div>
               <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
               
-                <Button asChild size="sm">
+                {/* --- Desktop Login Button --- */}
+                <Button asChild size="sm" className="hidden lg:flex">
                   <Link href="https://app.fraip.com.mx" target="_blank">
                     <span>Iniciar sesión</span>
                   </Link>
