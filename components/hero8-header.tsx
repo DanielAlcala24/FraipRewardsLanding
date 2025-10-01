@@ -7,10 +7,10 @@ import React from "react";
 import { ModeToggle } from "./mode-toggle";
 
 const menuItems = [
-  { name: "Features", href: "#link" },
-  { name: "Solution", href: "#link" },
-  { name: "Pricing", href: "#link" },
-  { name: "About", href: "#link" },
+  { name: "Características", href: "#link" },
+  { name: "Solución", href: "#link" },
+  { name: "Precios", href: "#link" },
+  { name: "Acerca de", href: "#link" },
 ];
 
 export const HeroHeader = () => {
@@ -42,7 +42,7 @@ export const HeroHeader = () => {
                 </Button>
                 <button
                   onClick={() => setMenuState(!menuState)}
-                  aria-label={menuState ? "Close Menu" : "Open Menu"}
+                  aria-label={menuState ? "Cerrar Menú" : "Abrir Menú"}
                   className="relative z-20 -m-2.5 block cursor-pointer p-2.5"
                 >
                   <Menu className="in-data-[state=active]:rotate-180 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0 m-auto size-6 duration-200" />

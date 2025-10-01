@@ -7,20 +7,20 @@ export default function CallToAction() {
       <div className="mx-auto max-w-5xl px-6">
         <div className="text-center">
           <h2 className="text-balance text-4xl font-semibold lg:text-5xl">
-            Start Building
+            Empieza a Construir
           </h2>
-          <p className="mt-4">Libero sapiente aliquam quibusdam aspernatur.</p>
+          <p className="mt-4">Comienza a crear tu proyecto ahora mismo.</p>
 
           <div className="mt-12 flex flex-wrap justify-center gap-4">
             <Button asChild size="lg">
               <Link href="/">
-                <span>Get Started</span>
+                <span>Comenzar</span>
               </Link>
             </Button>
 
             <Button asChild size="lg" variant="outline">
               <Link href="/">
-                <span>Book Demo</span>
+                <span>Agendar Demo</span>
               </Link>
             </Button>
           </div>

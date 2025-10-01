@@ -5,7 +5,7 @@ export default function ContentSection() {
     <section className="py-16 md:py-32">
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
         <h2 className="relative z-10 max-w-xl text-4xl font-medium lg:text-5xl">
-          The Lyra ecosystem brings together our models.
+          El ecosistema de Lyra une nuestros modelos.
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
           <div className="relative mb-6 sm:mb-0">
@@ -29,24 +29,20 @@ export default function ContentSection() {
 
           <div className="relative space-y-4">
             <p className="text-muted-foreground">
-              Gemini is evolving to be more than just the models.{" "}
+              Gemini está evolucionando para ser más que solo los modelos.{" "}
               <span className="text-accent-foreground font-bold">
-                It supports an entire ecosystem
+                Soporta todo un ecosistema
               </span>{" "}
-              — from products innovate.
+              — desde productos que innovan.
             </p>
             <p className="text-muted-foreground">
-              It supports an entire ecosystem — from products to the APIs and
-              platforms helping developers and businesses innovate
+              Soporta todo un ecosistema, desde productos hasta las API y plataformas que ayudan a los desarrolladores y empresas a innovar.
             </p>
 
             <div className="pt-6">
               <blockquote className="border-l-4 pl-4">
                 <p>
-                  Using TailsUI has been like unlocking a secret design
-                  superpower. It&apos;s the perfect fusion of simplicity and
-                  versatility, enabling us to create UIs that are as stunning as
-                  they are user-friendly.
+                  Usar TailsUI ha sido como desbloquear un superpoder de diseño secreto. Es la fusión perfecta de simplicidad y versatilidad, permitiéndonos crear interfaces de usuario que son tan impresionantes como fáciles de usar.
                 </p>
 
                 <div className="mt-6 space-y-3">
